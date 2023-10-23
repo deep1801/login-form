@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    font-family:  sans-serif;
+    background-color:#edf1fd
+}
+.container{
+    width: 28%;
+    margin: 100px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+form label{
+    margin: 5px 0;
+}
+form input[type="text"],input[type="text"]{
+    height: 55px;
+    margin: 5px 0;
+    border: 0.5px solid #b8b8b85d;
+    border-radius: 3px;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-family:  sans-serif;
+}
+form a{
+    margin: 10px 0;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+form input[type="submit"]{
+    height: 50px;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    font-family:  sans-serif;
+    border-radius: 2px;
+    color: white;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    box-shadow: var(--hover-shadow);
+    transform: translate(-3px);
+}
+.footer h3{
+    font-size: 16px;
+    opacity: 0.9;
+
+}
+.footer .icon{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+}
+.footer .icon{
+
+    border: 1px solid #e7e7e7;
+     border-radius: 3px;
+     transition: 0.3s ease;
+}
+.footer .icon:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
